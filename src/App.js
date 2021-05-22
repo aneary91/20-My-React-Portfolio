@@ -1,11 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
 import MyNavbar from './components/Navbar/MyNavbar';
 
 
-function App() {
+const App = () => {
   return (
     <div className="App">
+    My Portfolio
     <MyNavbar />
     
     </div>
