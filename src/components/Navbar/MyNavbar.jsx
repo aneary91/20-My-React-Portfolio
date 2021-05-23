@@ -9,21 +9,19 @@ function MyNavbar() {
         <>
         <Navbar className="my-nav" expand="lg" fixed='top'>
         <Navbar.Brand href="#home">ARN</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav"></Navbar.Toggle> 
         <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
-        <Nav.Link className=''href="#features">Home</Nav.Link>
-        <Nav.Link className=''href="#pricing">About</Nav.Link>
-        <Nav.Link className=''href="#pricing">Skills</Nav.Link>
-        <Nav.Link className=''href="#pricing">Experience</Nav.Link>
-        <Nav.Link className=''href="#pricing">Projects</Nav.Link>
-        <Nav.Link className=''href="#pricing">Contacts</Nav.Link>
-
-        <Nav.Link href="#link">Link</Nav.Link>
+        <Nav.Link className=''href="#home">Home</Nav.Link>
+        <Nav.Link className=''href="#about">About</Nav.Link>
+        <Nav.Link className=''href="#skills">Skills</Nav.Link>
+        <Nav.Link className=''href="#experience">Experience</Nav.Link>
+        <Nav.Link className=''href="#projects">Projects</Nav.Link>
+        <Nav.Link className=''href="#contacts">Contacts</Nav.Link>
         </Nav>
         </Navbar.Collapse>
         </Navbar>
-        </>
+        </ >
         )
       }
       
