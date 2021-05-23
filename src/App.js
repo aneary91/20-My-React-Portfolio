@@ -1,16 +1,14 @@
-
-import './App.css';
-import MyNavbar from './components/Navbar/MyNavbar';
-
+import React from "react";
+import "./App.css";
+import MyNavbar from "./components/Navbar/MyNavbar";
 
 const App = () => {
   return (
     <div className="App">
-    My Portfolio
-    <MyNavbar />
-    
+      My Portfolio
+      <MyNavbar />
     </div>
   );
-}
+};
 
 export default App;
